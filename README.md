@@ -30,7 +30,11 @@ Test: "It should return a Journal object with two properties, title and body."
 Code: const myJournal = new Journal(["My cat", "It's fluffy, and small."])
 Expected Output: Journal { title: "My cat", body: "It's fluffy, and small."}
 
-Describe:
+Describe: Journal.prototype.numberOfCharacters
+Test: "It should count the number of characters in the body property of Journal Object."
+Input: "It's fluffy, and small."
+Code: const characterCount = Journal.body.length
+Expected Output: 23
 
 ## Known Bugs
 * No known bugs.

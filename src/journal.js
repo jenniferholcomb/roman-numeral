@@ -1,9 +1,8 @@
-export function Journal(side1, side2, side3) {
-  this.side1 = side1;
-  this.side2 = side2;
-  this.side3 = side3;
+export default function Journal(title, entryBody) {
+  this.title = title;
+  this.entryBody = entryBody;
 }
 
-Journal.prototype.checkType = function() {
+Journal.prototype.numberOfWords = function() {
   return "I can't answer that yet!";
-}
+};
