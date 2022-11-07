@@ -33,7 +33,7 @@ Expected Output: Journal { title: "My cat", body: "It's fluffy, and small."}
 Describe: Journal.prototype.numberOfCharacters
 Test: "It should count the number of characters in the body property of Journal Object."
 Input: "It's fluffy, and small."
-Code: const characterCount = Journal.body.length
+Code: const charCount = Journal.body.length
 Expected Output: 23
 
 ## Known Bugs
