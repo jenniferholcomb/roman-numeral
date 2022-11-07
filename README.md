@@ -36,6 +36,12 @@ Input: "It's fluffy, and small."
 Code: const charCount = Journal.body.length
 Expected Output: 23
 
+Describe: Journal.prototype.vowels
+Test: It should count the number of vowels in the body property of Journal Object."
+Input: "It's fluffy, and small."
+Code: let vowelCount = branching using charAt through string looking for and counting vowels
+Expected Output: 4
+
 ## Known Bugs
 * No known bugs.
 * If any issues are discovered, please email jenniferlholcomb@gmail.com.
