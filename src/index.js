@@ -9,8 +9,10 @@ function handleJournalForm() {
   const input1 = document.querySelector('#input1').value;
   const input2 = document.querySelector('#input2').value;
   const journal = new Journal(input1, input2);
-  const numChar = journal.numberOfCharacters();
-  const numVowels = journal.vowels();
+  journal.numberOfCharacters();
+  journal.vowels();
+  journal.consonants();
+
   //const pTag = document.createElement("p");
   //pTag.append(response);
   //document.querySelector('#response').append(pTag);
