@@ -7,10 +7,10 @@ describe('RomanNumerals', () => {
     expect(romanNum.symbols).toEqual(['I', 'V', 'X', 'L', 'C', 'D', 'M']);
   })
 
-  // test('should create a property of numbers and set it equal to an empty array in the roman numerals object', () => {
-  //   const romanNum = new RomanNumerals();
-  //   expect(romanNum.numbers).toEqual([]);
-  // })
+  test('should create a property of numbers and set it equal to an empty array in the roman numerals object', () => {
+    const romanNum = new RomanNumerals();
+    expect(romanNum.numbers).toEqual([]);
+  })
 
   test('should return an error message if number is greater than 3999', () => {
     const romanNum = new RomanNumerals();
