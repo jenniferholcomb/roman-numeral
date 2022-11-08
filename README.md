@@ -42,6 +42,12 @@ Input: "It's fluffy, and small."
 Code: let vowelCount = branching using charAt through string looking for and counting vowels
 Expected Output: 4
 
+Describe: Journal.prototype.consonants
+Test: It should count the number of consonants in the body property of Journal Object."
+Input: "It's fluffy, and small."
+Code: let consonantCount = branching through string looking for and counting consonants
+Expected Output: 13
+
 ## Known Bugs
 * No known bugs.
 * If any issues are discovered, please email jenniferlholcomb@gmail.com.

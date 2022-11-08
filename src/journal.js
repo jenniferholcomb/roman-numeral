@@ -12,11 +12,8 @@ Journal.prototype.numberOfCharacters = function() {
 Journal.prototype.vowels = function () {
   let vowelSearch = 0;
   const bodyString = this.input2;
-  console.log(bodyString.charAt(4));
   for(let i = 0; i<= bodyString.length; i++){
-    console.log("I'm here");
     if(bodyString.charAt(i) === 'a'){
-      console.log("Found an i");
       vowelSearch++;
     } else if ( this.input2.charAt(i) ==='e') {
       vowelSearch++;
@@ -28,7 +25,8 @@ Journal.prototype.vowels = function () {
       vowelSearch++;
     }
   }
-  console.log("We're out");
   return vowelSearch;
 }
 
+// since myJ.vowels return vowelSearch=#, subtrct that from charCount
+// .trim() whitespaces && if [i]!==Symbol
