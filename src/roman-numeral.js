@@ -5,7 +5,6 @@ export default function RomanNumerals() {
 
 RomanNumerals.prototype.convertNum = function(inputNum) {
  if(inputNum>3999) {
-  console.log(inputNum);
   return "please enter a number between 1 and 3999";
  }else {
   return "good number selection";
@@ -18,4 +17,19 @@ RomanNumerals.prototype.checkNum = function(inputValue) {
   } else {
     return "thanks for entering a number";
   }
+};
+
+RomanNumerals.prototype.numArray = function(inputValue) {
+  // const valueArray = inputValue.split('');
+
+  const numsArr = Array.from(String(inputValue), Number);
+  //let i = 0;
+  // valueArray.forEach(function() {
+  //   parseInt(valueArray[i]);
+  //   i++;
+  // })
+//   this.numbers = valueArray;
+
+  console.log(numsArr);
+  return numsArr
 }
