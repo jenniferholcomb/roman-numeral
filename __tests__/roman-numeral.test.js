@@ -24,4 +24,8 @@ describe('RomanNumerals', () => {
     expect(romanNum.checkNum(3000)).toEqual("thanks for entering a number");
   })
 
+  test('should return the input value split into an array', () => {
+    const romanNumb = new RomanNumerals();
+    expect(romanNum.numArray(3421)).toEqual([3,4,2,1])
+  })
 })
