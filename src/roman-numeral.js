@@ -10,3 +10,11 @@ RomanNumerals.prototype.convertNum = function(inputNum) {
   return "good number selection"
  }
 };
+
+RomanNumerals.prototype.checkNum = function(inputValue) {
+  if (Number.isInteger(inputValue) === false) {
+    return "please enter a number not a character";
+  } else {
+    return "thanks for entering a number";
+  }
+}
