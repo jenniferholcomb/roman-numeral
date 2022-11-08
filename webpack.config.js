@@ -19,7 +19,7 @@ module.exports = {
       verbose: true
     }),
     new HtmlWebpackPlugin({
-      title: 'Journal',
+      title: 'Roman Numeral',
       template: './src/index.html',
       inject: 'body'
     })

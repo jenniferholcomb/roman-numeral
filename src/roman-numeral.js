@@ -38,7 +38,7 @@ Journal.prototype.consonants = function(){
   console.log("bodyString: ", bodyString);
 
   for( let i = 0; i<= bodyString.length; i++){
-    if(bodyString.charAt(i) !== Symbol ){
+    if(bodyString.charAt(i)  ){ //!== Symbol
       console.log("body in not a symbol: ");
       if(bodyString.charAt(i) !== 'a'){
         consonantSearch++;
