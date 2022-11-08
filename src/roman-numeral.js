@@ -23,13 +23,8 @@ RomanNumerals.prototype.numArray = function(inputValue) {
   // const valueArray = inputValue.split('');
 
   const numsArr = Array.from(String(inputValue), Number);
-  //let i = 0;
-  // valueArray.forEach(function() {
-  //   parseInt(valueArray[i]);
-  //   i++;
-  // })
-//   this.numbers = valueArray;
+  this.numbers = numsArr;
 
-  console.log(numsArr);
+  console.log(this.numbers);
   return numsArr
 }
