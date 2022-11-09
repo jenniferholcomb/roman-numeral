@@ -24,7 +24,18 @@ RomanNumerals.prototype.numArray = function(inputValue) {
 
   const numsArr = Array.from(String(inputValue), Number);
   this.numbers = numsArr;
-
-  console.log(this.numbers);
   return numsArr
+}
+
+RomanNumerals.prototype.lengthOf = function() {
+  
+  let romanNum = new RomanNumerals();
+  let newArray = romanNum.numArray(8);
+  console.log(newArray.length);
+  romanNum.numArrayhis.numbers.length
+  if(newArray.length === 1) {
+    return true
+  }else {
+    return false
+  }
 }

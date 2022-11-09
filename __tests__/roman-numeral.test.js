@@ -31,6 +31,7 @@ describe('RomanNumerals', () => {
 
   test('should check that the length of the array is equal to 1', () => {
     const romanNum = new RomanNumerals();
-    expect(romanNum.numArray(8)).toEqual(true)
+    expect(romanNum.lengthOf(8)).toEqual(true);
+    expect(romanNum.lengthOf(10)).toEqual(false);
   })
 })
